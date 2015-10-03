@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
+
 /**
  *
  * @author staale andre
@@ -208,6 +209,7 @@ public class view extends javax.swing.JFrame {
  String regnr, bilmodell,bilmerke,regar;
  long nr = Long.parseLong(JOptionPane.showInputDialog("Skriv inn fnr"));
  try{
+     
  ResultSet rs = control.control.getBiler(nr);
  while(rs.next()) {
  regnr = rs.getString(1);
