@@ -61,7 +61,6 @@ public class control {
      }catch(Exception ex){JOptionPane.showMessageDialog(null, ex.getMessage());}
  
  }
- 
   public String getNavn(long nr){
  try{
  callableStatement = conn.prepareCall("{ ? = call GETNAVN(?) }");
