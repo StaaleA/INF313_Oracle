@@ -9,6 +9,8 @@ package oracleoppgave4;
  *
  * @author staaleas
  */
+
+
 import java.sql.*;
 import javax.swing.JOptionPane;
 import oracle.jdbc.OracleCallableStatement;
